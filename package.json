@@ -1,17 +1,12 @@
 {
-  "name": "karma-tape-example",
+  "name": "karma-tap-example",
   "version": "1.0.0",
-  "description": "adapter from karma to the tape testing framework",
+  "description": "example of karma-tap",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "karma",
-    "karma-plugin",
-    "karma-adapter",
-    "tape"
-  ],
+  "keywords": [],
   "author": "Tom MacWright",
   "license": "ISC",
   "devDependencies": {
@@ -19,8 +14,5 @@
     "karma-browserify": "^1.0.0",
     "karma-chrome-launcher": "^0.1.5",
     "tape": "^3.0.3"
-  },
-  "dependencies": {
-    "tap-parser": "^0.7.0"
   }
 }
