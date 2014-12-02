@@ -1,6 +1,6 @@
 module.exports = function(config) {
     config.set({
-        frameworks: ['browserify', 'tape'],
+        frameworks: ['browserify', 'tap'],
         files: [
             'test/*.js'
         ],
